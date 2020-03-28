@@ -967,10 +967,15 @@ p
   .menu_carte
   {
     width: 87%;
-    height: 90%;
+    height: 96%;
     box-shadow: 1px 1px 1px grey;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .icon_end
+  {
+   display: none;
   }
 
   .p_mention
