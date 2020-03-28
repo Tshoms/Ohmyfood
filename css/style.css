@@ -1000,6 +1000,13 @@ p
 
 }
 
+@media screen and (max-width: 360px){
+ .menu_carte
+ {
+  height: 96%;
+ }
+}
+
 @media screen and (max-width: 320px){
 
  h1
