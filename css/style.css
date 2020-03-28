@@ -1,0 +1,1088 @@
+
+body
+{
+ padding: 0;
+ margin: 0;
+ width: 1280px;
+ height: auto;
+ font-family: 'Muli', sans-serif;
+}
+
+ .container
+{
+ padding: 0;
+ margin: 0;
+ width: auto;
+}
+
+/* le header/haut du site*/
+nav
+{
+ width: 100%;
+ height: 90px;
+ background: #64aa88;
+ margin-bottom: 50px;
+}
+
+.brand
+{
+ display: flex;
+ justify-content: center;
+ padding-top: 17px;
+ color:#FFCA28;
+ font-size: 2.5em;
+ font-family: 'Muli', sans-serif;
+ font-weight: bold;
+}
+
+/* contenu du site / main */
+#box
+{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ height: 1100px;
+ background: white;
+}
+
+.row /* page d'acceuil*/
+{
+ width: 100%;
+ height: 550%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.row__menu /* les menus */
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ text-align: left;
+ width: 80%;
+}
+
+.section /*section*/
+{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.page_menu /* section__carte */
+{
+ width: 100%;
+ height: 1280px;
+ display: flex;
+ flex-direction: column;
+}
+
+.menu
+{
+ width: 30%;
+ height: 80%;
+ box-shadow: 1px 1px 1px grey;
+ transition-duration: 1s;
+}
+
+.menu:hover /* test animation */
+{
+box-shadow: 7px 7px 7px red;
+}
+
+.menu img /* important pour que la taille de l'image soit égale aux menus */
+{
+ width: 100%;
+ height: 100%;
+}
+
+.menu_carte /* .menu_carte */
+{
+ width: 80%;
+ height: 1100px;
+ box-shadow: 1px 1px 1px grey;
+ background-color:#f7dcdc;
+ margin-top: 32px;
+ margin-left: 120px;
+ margin-bottom: 0px;
+ margin-right: 20px;
+}
+
+/* couleur de fond/cartes */
+.menu_one /* carte_one */
+{
+ background-color:#fff5f8;
+ margin-top: 32px;
+}
+
+.menu_two /* carte_two */
+{
+ background-color:#ebeded; /* #e8eded */
+ margin-top: 32px;
+}
+
+.menu_three /* carte_three */
+{
+ background-color:#fbfcfa;
+ margin-top: 32px;
+}
+
+#colone_titre
+{
+ width: 100%;
+ height: 195px;
+ display: flex;
+ text-align: center;
+}
+
+.icon
+{
+ height: 55px;
+ display: flex;
+ justify-content: center;
+ font-size: 70px;
+ padding-top: 30px;
+}
+
+.fas
+{
+ height: 155px;
+ background: linear-gradient(to right,#ff704d , #ff704d , #ff704d , #f2c59b);/* #ff704d */
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+
+.icon_end
+{
+ font-size: 50px;
+}
+
+/* carte 1 */
+.Prelude
+{
+ height: 285px;
+ display: flex;
+ text-align: center;
+ margin-top: -20px;
+ width: 100%;
+ justify-content: center;
+}
+
+.point-dorgue
+{
+ display: flex;
+ justify-content: center;
+ margin-top: 60px;
+}
+
+.mouvement-final
+{
+ display: flex;
+ justify-content: center;
+ margin-top: -13px;
+}
+
+/* carte2 */
+.appetit
+{
+ height: 285px;
+ display: flex;
+ text-align: center;
+ margin-top: -20px;
+ width: 100%;
+ justify-content: center;
+}
+
+.Plaisir
+{
+ display: flex;
+ justify-content: center;
+ margin-top: -60px;
+}
+
+.Gourmandises
+{
+ display: flex;
+ justify-content: center;
+ margin-top: -50px;
+}
+
+/* carte3 */
+.commencer
+{
+ height: 330px;
+ display: flex;
+ text-align: center;
+ width: 100%;
+ justify-content: center;
+}
+
+.continuer
+{
+ display: flex;
+ justify-content: center;
+ margin-top: -70px;
+}
+
+.terminer
+{
+ display: flex;
+ justify-content: center;
+ margin-top: 3px;
+}
+
+/* carte */
+.bloc_title /* bloc_titre */
+{
+ width: 100%;
+ height: 175px;
+ display: flex;
+ flex-direction: column;
+}
+
+.bloc_one /* bloc1 */
+{
+ width: 100%;
+ height: 375px;
+ display: flex;
+ flex-direction: column;
+}
+
+.bloc_two /* bloc2 */
+{
+ width: 100%;
+ height: 275px;
+ display: flex;
+ flex-direction: column;
+}
+
+.bloc_three /* bloc3 */
+{
+ width: 100%;
+ height: 275px;
+ display: flex;
+ flex-direction: column;
+}
+
+.bloc p
+{
+ font-family: 'Courgette', sans-serif;
+ width: auto;
+ color: black;
+}
+
+.bloc_five p
+{
+ font-family: 'Courgette', sans-serif;
+ font-size: 21px;
+ width: auto;
+}
+
+.title1
+{
+ font-family: 'Lily Script One',sans-serif;
+ font-size: 2.5rem;
+ display: flex;
+ width: auto;
+ margin-top: 29px;
+ justify-content: center;
+}
+
+.subtitle_one /* m-1 */
+{
+ font-family: 'Courgette', sans-serif;
+ font-size: 2rem;
+ width: auto;
+ height: 0px;
+ margin-bottom: 16px;
+ display: flex;
+ justify-content: center;
+}
+
+.title_top
+{
+ display: flex;
+ justify-content: center;
+ font-size: 2rem;
+}
+
+.title_end
+{
+ font-size: 2rem;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+
+.title2
+{
+ font-family: 'Alice', serif;
+ font-size: 3rem;
+ display: flex;
+ width: auto;
+ margin-top: 90px;
+ justify-content: center;
+ background: linear-gradient(to right,#ff7733 , #d97441 , #b12ade , #8b08d1);/* #ff7733 */
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+/* menu2 */
+
+.bloc_for p
+{
+ font-family: 'Alice', serif;
+ font-size: 20px;
+ width: auto;
+}
+
+.three, .four, .subtitle_two
+{
+ font-family: 'Alice', serif;
+ font-size: 1.5rem;
+ width: auto;
+ height: 0px;
+ margin-bottom: 16px;
+ display: flex;
+ justify-content: center;
+}
+
+.list, .list_one, .list_two
+{
+display:flex;
+justify-content: space-between;
+}
+
+.list_one, .subtitle_two
+{
+color:#b55b2d;
+}
+
+.list_two, .three
+{
+color: purple;
+}
+
+.list_three, .four
+{
+color: #7213bf;
+}
+
+/* fin/menu2- colour des pharagraphe et sous titre */
+
+.title3
+{
+ font-family: 'Dancing Script', cursive;
+ font-size: 3.5rem;
+ color:#1655d3;
+ display: flex;
+ width: auto;
+ margin-top: 90px;
+ justify-content: center;
+ background: linear-gradient(to right,#1655d3 , #0c5af5 , #78a3fa , #78a3fa);/* #1655d3 */
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+
+.subtitle_three, .subtitle_for
+{
+ font-family: 'Courgette', sans-serif;
+ font-size: 1.5rem;
+ width: auto;
+ height: 0px;
+ margin-bottom: 16px;
+ display: flex;
+ justify-content: center;
+}
+
+.title4
+{
+ font-family: 'Kaushan Script', cursive;
+ font-size: 3.5rem;
+ display: flex;
+ width: auto;
+ margin-top: 90px;
+ justify-content: center;
+ background: linear-gradient(to right,#339933 , #339933 , #a5e8a5 , #a5e8a5);/* #339933 */
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+
+.menu_carte img /* important pour que la taille de l'image soit égale aux menus */
+{
+ width: 40%;
+ height: 5%;
+}
+
+.line_one /* separateur-m1 */
+{
+ display: flex;
+ margin-left: -20px;
+ margin-bottom: -15px;
+}
+
+.line_two /* separateur-m2 */
+{
+ display: flex;
+ margin-left: 520px;
+ margin-bottom: 10px;
+}
+
+.line_three /* separateur-m3 */
+{
+ display: flex;
+ margin-left: -50px;
+ margin-bottom: -15px;
+}
+
+.line_for /* separateur-m4 */
+{
+ display: flex;
+ margin-left: 550px;
+ margin-bottom: 10px;
+}
+
+.line_five /* separateur-m5 */
+{
+ display: flex;
+ margin-left: -80px;
+ margin-bottom: -15px;
+ height: 10px;
+}
+
+.line_six /* separateur-m6 */
+{
+ display: flex;
+ margin-left: 580px;
+ margin-bottom: 10px;
+}
+
+.price /* prix */
+{
+
+}
+
+.p_mention
+{
+  width: 100%;
+  height: auto;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: black;
+  margin-left: 0px;
+}
+
+.info_mention
+{
+  width: auto;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+  color: red;
+}
+
+.annonce
+{
+ width: 10rem;
+ height: 1rem;
+ padding-top: 1rem;
+ padding-left: 3rem;
+ padding-bottom: 1rem;
+ padding-right: 1rem;
+ margin-left: 40%;
+ margin-right: 35%;
+ margin-bottom: 10px;
+ border-radius: 10px;
+ background-color: #64aa88;
+}
+
+.annonce p
+{
+ margin-top: -5px;
+}
+
+/* footer*/
+footer
+{
+  width: 100%;
+  height: 85px;
+  margin-top: 40px;
+  background: #64aa88;
+}
+
+p
+{
+ color:#FFCA28;
+ font-size: 20px;
+}
+
+.bottom /* la class du footer */
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 197px;
+  position: sticky;
+  bottom: 0;
+}
+
+.left /* bloc gauche du footer/ mention */
+{
+ width: 50%;
+ height: 90px;
+ padding-left:25px;
+}
+
+.right /* bloc droit du footer/ contact */
+{
+  display: flex;
+  flex-direction: row-reverse; /* axe de direction */
+  width: 50%;
+  height: 90px;
+  padding-right:25px;
+}
+
+/* responsive */
+@media screen and (max-width: 1220px){
+
+ .line_one, .line_two, .line_three, .line_for, .line_five, .line_six
+ {
+  display: none;
+ }
+}
+
+@media screen and (max-width: 1024px){
+.bloc_for, .bloc_five
+{
+ width: 100%;
+}
+
+.subtitle_one
+{
+ margin-bottom: 36px;
+}
+
+.three, .four, .subtitle_two, .subtitle_for
+{
+ margin-bottom: 46px;
+}
+.Gourmandises
+{
+ margin-top: 0px;
+}
+.subtitle_three
+{
+ margin-bottom: 46px;
+}
+
+
+
+}
+
+@media screen and (max-width: 800px){
+
+  body
+  {
+   padding: 0;
+   margin: 0;
+   width: 1280px;
+   height: 0px;
+  }
+
+  .menu_carte
+  {
+   width: 80%;
+   height: 100%;
+   box-shadow: 1px 1px 1px grey;
+   margin-top: 0px;
+   margin-left: 80px;
+   margin-bottom: 0px;
+   margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+.section /* important pour la hauteur des sections */
+{
+ width: 100%;
+ height: auto;
+ display: flex;
+ flex-direction: column;
+}
+
+.row
+{
+ width: 100%;
+ height: auto;
+ display:flex;
+ flex-direction: column;
+}
+
+ .menu
+{
+ width: 80%;
+ height: auto;
+ margin-top: 30px;
+ margin-left: 65px;
+ margin-bottom: 30px;
+ margin-right: 25px;
+}
+
+.subtitle_for
+{
+ margin-bottom: 36px;
+}
+
+.subtitle_three
+{
+ margin-bottom: 66px;
+}
+
+.three, .four, .subtitle_two
+{
+ margin-bottom: 46px;
+}
+
+.Gourmandises
+{
+ margin-top: 0px;
+}
+
+.subtitle_one
+{
+ margin-bottom: 36px;
+}
+
+.annonce
+{
+ display: flex;
+ margin-top: 2700px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+}
+
+@media screen and (max-width: 690px){
+
+  .menu
+  {
+   width: 80%;
+   height: auto;
+   margin-top: 30px;
+   margin-left: 70px;
+   margin-bottom: 30px;
+   margin-right: 25px;
+  }
+
+ .modif
+ {
+     width: 100%;
+     height: 1100px;
+     display: flex;
+     flex-direction: column;
+ }
+
+  .annonce
+  {
+    display: flex;
+    margin-top: 2300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* break-point*/
+@media screen and (max-width: 630px) and (min-width: 650px){
+
+  .menu
+  {
+   width: 80%;
+   height: auto;
+   margin-top: 30px;
+   margin-left: 60px;
+   margin-bottom: 30px;
+   margin-right: 25px;
+  }
+
+  .section
+  {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .annonce
+  {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/* break-point */
+@media screen and (max-width: 649px) and (min-width: 600px){
+
+  .annonce
+  {
+    display: flex;
+    margin-top: 2100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* break-point */
+@media screen and (max-width: 599px) and (min-width: 570px){
+
+  .p_mention
+  {
+    width: 100%;
+    height: auto;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+  }
+
+  .annonce
+  {
+    display: flex;
+    margin-top: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* break-point */
+@media screen and (max-width: 569px) and (min-width: 532px){
+
+  .p_mention
+  {
+    width: 100%;
+    height: auto;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+  }
+
+  .annonce
+  {
+    display: flex;
+    margin-top: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* break-point */
+@media screen and (max-width: 532px) and (min-width: 500px){
+
+  .line_one
+  {
+   display: none;
+  }
+
+
+
+  .p_mention
+  {
+    width: 100%;
+    height: auto;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+  }
+
+  .annonce
+  {
+    display: flex;
+    margin-top: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 425px){
+
+  body
+  {
+    padding: 0;
+    margin: 0;
+    width: 1280px;
+    height: 180px;
+  }
+
+  .title1
+  {
+    font-size: 2rem;
+  }
+
+  .title2
+  {
+   margin-top: 30px;
+  }
+
+  .subtitle_two, .subtitle_three, .four
+  {
+   margin-bottom: 70px;
+   font-size: 1.5rem;
+   text-align: center;
+  }
+
+  .subtitle_one
+  {
+   margin-bottom: 30px;
+  }
+
+  .subtitle_for
+  {
+   margin-bottom: 40px;
+  }
+
+  .title3
+  {
+    margin-top: 30px;
+  }
+
+  .title4
+  {
+    margin-top: 2px;
+  }
+
+  .bloc p
+  {
+   font-size: 15px;
+  }
+
+  .line_one, .line_two, .line_three, .line_for, .line_five, .line_six
+  {
+   display: none;
+  }
+
+  .row__menu
+  {
+  text-align: left;
+  width: 80%;
+  }
+
+  .three
+  {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+  }
+
+  .Prelude
+  {
+   margin-top: -50px;
+  }
+
+  .point-dorgue
+  {
+   margin-top: 30px;
+  }
+
+  .Plaisir, .Gourmandises
+  {
+    margin-top: 5px;
+  }
+
+  .mouvement-final
+  {
+  margin-top: -50px;
+  }
+
+
+  .menu
+  {
+   width: 80%;
+   height: auto;
+   margin-top: 30px;
+   margin-left: 35px;
+   margin-bottom: 30px;
+   margin-right: 25px;
+  }
+
+  .menu_carte
+  {
+  width: 80%;
+  height: 95%;
+  box-shadow: 1px 1px 1px grey;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+ }
+
+ .p_mention
+ {
+   width: 100%;
+   height: auto;
+   display:flex;
+   text-align: center;
+   justify-content: center;
+   font-size: 20px;
+   color: black;
+   margin-left: 0px;
+ }
+
+  .annonce
+ {
+  display: flex;
+  margin-top: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+}
+
+@media screen and (max-width: 375px){
+
+  .title1
+  {
+    font-size: 2rem;
+  }
+
+  .ligne2
+  {
+   display: none;
+  }
+
+  .menu_carte
+  {
+    width: 87%;
+    height: 90%;
+    box-shadow: 1px 1px 1px grey;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .p_mention
+  {
+    width: 100%;
+    height: auto;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+  }
+
+  .annonce
+  {
+    display: flex;
+    margin-top: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+
+ h1
+{
+ font-size: 2rem;
+}
+
+ h2
+{
+ margin-top: 30px;
+}
+
+.menu_carte
+{
+ height: 95%;
+}
+
+.title4
+{
+ font-size: 3rem;
+ margin-top: 30px;
+}
+
+.ligne2
+{
+ display: none;
+}
+
+.subtitle_for
+{
+ margin-bottom: 70px;
+ text-align: center;
+}
+
+.subtitle_one
+{
+ margin-bottom: 65px;
+ text-align: center;
+}
+
+.point-dorgue
+{
+ margin-top: 90px;
+}
+
+.mouvement-final
+{
+ margin-top: 60px;
+}
+
+.icon_end
+{
+ display: none;
+}
+
+.title_top
+{
+ display: flex;
+ text-align: center;
+}
+
+.p_mention
+ {
+  width: 100%;
+  height: auto;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  color: black;
+  margin-left: 0px;
+ }
+
+ .brand
+ {
+  display: flex;
+  text-align: center;
+  font-size: 2.0em;
+ }
+
+ .left
+ {
+  padding-left: 0px;
+ }
+
+ .right
+ {
+  padding-right: 0px;
+ }
+
+}
