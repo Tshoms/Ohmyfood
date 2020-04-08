@@ -667,7 +667,7 @@ p
 
 }
 
-@media screen and (max-width: 690px){
+@media screen and (max-width: 699px){
 
   .menu
   {
@@ -693,6 +693,21 @@ p
     margin-top: 2300px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .point-dorgue
+  {
+    margin-top: 110px;
+  }
+
+  .mouvement-final
+  {
+    margin-top: 33px;
+  }
+
+  .icon_end
+  {
+    display: none;
   }
 }
 
